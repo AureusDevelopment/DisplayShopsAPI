@@ -16,6 +16,9 @@ mysql:
   username: "root"
   password: ""
 
+experimental: true
+display-distance: 10
+
 # As display packets are being sent and removed memory is allocated more and more. Having this option enabled will call garbage collection
 # immediately after all packets are sent out and managed. This will resolve the increasing memory usage until garbage collection automates later on.
 run-gc-immediately: true
