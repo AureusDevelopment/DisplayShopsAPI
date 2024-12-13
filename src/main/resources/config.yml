@@ -30,6 +30,9 @@ claimable-system: false
 # When player collects all items / money from this claimable system, should we give them the shop back?
 claimable-system-give_shop: false
 
+#Changes how Items are saved into database - human-unreadable format
+new-item-mysql-saving: false
+
 # When enabled, the blocks above shops will be cleared to avoid any display conflicts when shops are loaded in from the database.
 fix-above-blocks: true
 
