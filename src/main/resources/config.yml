@@ -64,6 +64,10 @@ default-currency-type: "Vault"
 # Preset economy IDs: [ "Vault", "item-for-item", "PlayerPoints" ]
 currency-blacklist: [ ]
 
+# If set to true and WorldGuard plugin is present, this will enable: When Shop is being created, a value of a flag 'ds-create' is checked and if set to true, inside this region players can build Shops
+# Players that have permission 'displayshops.wg_bypass' will be ignored - flag for them isn't going to be checked and they'll be able to build in every region regardless of flag's state
+worldguard-integration: false
+
 # This section can contain all the economy names found within the edit menu in-game alongside an alternate name to be used.
 # Note: The "format" option will override the "raw-placeholder-value". Available Placeholders: {amount}, {symbol}, and {name}
 #
